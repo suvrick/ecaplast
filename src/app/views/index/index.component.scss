@@ -1,0 +1,29 @@
+.container {
+
+}
+
+.main {
+    position: relative;
+    background: url(~src/assets/main_bg8.jpg) no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 750px;
+}
+
+.title {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    color: white;
+    p{
+      font-family: 'Scada', sans-serif;
+       background: #b2342f;   
+       padding: 55px;
+       font-size: 2.5rem;
+       span {
+           font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+       }
+    }   
+}
