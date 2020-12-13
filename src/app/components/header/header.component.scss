@@ -13,21 +13,22 @@ header {
     top:0;
     left: 0;
     width: 100%;
-    height: 70px;
-    background: #00000010;
+    background: #eeeeee;
     z-index: 9;
+    box-shadow: 1px 1px 2px #00000050;
 
     .top_block {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     
         .head {
             display: flex;
             
             .logo {
                 width: 150px;
-                height: 70px;
+                height: 60px;
                 display: inline-block;
                 margin: 5px;
                 background: url(~src/assets/logo.png) no-repeat;
@@ -40,19 +41,23 @@ header {
         }
 
         nav {
-            height: 100%;
+            
             .main_menu {
+
                 display: flex;
                 flex-direction: row;
 
                 & > li {
-                    color: #f3ae39;
+
                 }
 
                 & > li > a {
                     display: inline-block;
-                    font-size: 1.1rem;
+                    font-family: 'Scada';
+                    font-size: 1rem;
                     padding: 10px;
+                    color: rgb(245, 66, 66);
+                    text-transform: uppercase;
                 }
 
                 
