@@ -1,13 +1,19 @@
 
 
 <header>
+    
     <div class="container">
         
+    </div>
+
+    <div class="container">
+        
+      
         <div class="top_block">
+
             <div class="head">
-
-                <span class="logo"></span>
-
+                <span (click)="toHome()" class="logo"></span>
+    
                 <div class="burger">
                     <span></span>
                 </div>
@@ -16,37 +22,46 @@
             <nav>
                 <ul class="main_menu">
                     <li>
-                        <a href="">Каталог продукции</a>
+                        <a >Каталог продукции</a>
                         <ul class="sub_menu">
                             <li>
-                                <a>Потолочные карнизы</a>
+                                <a>
+                                    Карнизы
+                                </a>
                             </li>
                             <li>
-                                <a>Карнизы с декоративной планкой</a>
+                                <a>
+                                    Карнизы с декоративной планкой
+                                </a>
                             </li>
                             <li>
-                                <a>Потолочные карнизы</a>
+                                <a>
+                                    Декоративная планка
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    Комплектующие
+                                </a>
                             </li>
                         </ul>
-                    </li>
-                    <li>
-                        <a href="contact"> Контакты </a>
-                    </li>
-                    <li>
-                        <a href="about"> О компании </a>
-                    </li>
+                    </li>                  
                     <li>
                         <a href="">Где купить</a>
                     </li>
                     <li>
-                        <a href="">Партнерам</a>
-                    </li>
-                    <li>
                         <a href="">Покупателем</a>
                     </li>
-
+                    <li>
+                        <a routerLink="/about" routerLinkActive="active"> О компании </a>
+                    </li>
+                    <li>
+                        <a routerLink="/contact"> Контакты </a>
+                    </li>
                 </ul>
             </nav>
+
+            <div class="tel">+7 (3852) 25-29-25</div>
         </div>
     </div>
 </header>
