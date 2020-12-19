@@ -21,10 +21,10 @@
         top: 100px;
 
         padding-right: 15px;
-        max-width: 255px;
+        max-width: 190px;
         margin: 30px;
 
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-family: 'Exo 2';
         text-align: right;
         border-right: 10px solid #e36d39;
@@ -40,12 +40,27 @@
 .why__are__we {
     
     min-height: 550px;
-    
+
     & > li {
 
         & > a {
 
         }
+    }
+
+    .hexagon {
+
+        display: inline;
+        width: 100px;
+        height: 55px;
+
+       background: url(/assets/hexagon.svg) no-repeat;
+
+        span {
+            font-size: 20px;
+        }
+
+
     }
 
 

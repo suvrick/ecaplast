@@ -6,13 +6,13 @@
     display: flex;
     box-shadow: 1px 1px 10px #00000010;
     flex-direction: row-reverse;
+    background: #f3ae39;
 
     .card__img {
         flex: 0 0 250px;
         height: 250px;
         transform: rotate(45deg);
-        border: 1px solid springgreen;
-        box-shadow: 1px 1px 10px #00000020;
+        box-shadow: 1px 1px 10px #00000066;
         z-index: 2;
 
         img {
@@ -24,7 +24,7 @@
     .card__content {
         padding: 20px;
         z-index: 2;
-        background: #fff;
+        background: #faf9f5;
 
         .card__title {
             padding: 10px;
@@ -34,6 +34,7 @@
         .card__text {
             font-family: "Open Sans";
             padding: 10px;
+            text-align: justify;
         }
 
         .card__action {
