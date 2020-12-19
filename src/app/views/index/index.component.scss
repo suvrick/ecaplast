@@ -16,15 +16,30 @@
 .block {
     
     .block__title{
-        font-size: 3rem;
+        position: sticky;
+        float: left;
+        top: 100px;
+
+        padding-right: 15px;
+        max-width: 255px;
+        margin: 30px;
+
+        font-size: 2rem;
+        font-family: 'Exo 2';
+        text-align: right;
+        border-right: 10px solid #e36d39;
+
     }
 
     .block__container{
         display: flex;
+        flex-wrap: wrap;
     }
 }
 
 .why__are__we {
+    
+    min-height: 550px;
     
     & > li {
 
